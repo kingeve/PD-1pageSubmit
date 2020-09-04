@@ -1,0 +1,77 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+ 
+    margin: 0;
+    padding: 10;
+    min-height: 100vh;
+
+  }
+  
+  /* Hieronder mag je eigen CSS code */
+  
+  body {  
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EEEEEE;
+  }
+  form {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows:  10vh  auto auto auto auto auto auto 10vh;
+  }
+
+  form #title {
+      font-weight: bold;
+      font-size: large;
+      text-align: center;
+    background-color: yellow;
+      grid-row: 1/2;
+      grid-column: 1/2;
+  }
+  form #q1 {
+    text-align: center;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+form #q2 {
+    text-align: center;
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+form #q3 {
+    text-align: center;
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+form #q4 {
+    text-align: center;
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+#q5 {
+    text-align: center;
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+#q6 {
+    text-align: center;
+    grid-row:7/8;
+    grid-column: 1/2;
+}
+#bottom {
+    text-align: center;
+    grid-row: 8/9;
+    grid-column: 1/2;
+}
+#side {
+    
+    background-color: white;
+    grid-row:1/9;
+    grid-column: 2/3;
+}
